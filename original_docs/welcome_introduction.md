@@ -18,8 +18,6 @@ menu:
   docs:
     parent: Welcome
     weight: 1
-
-slug: /
 ---
 
 Tower is a full-stack application for [Nextflow](https://www.nextflow.io/) data analysis pipelines. It brings monitoring, logging & observability, to your distributed workflows and simplifies the deployment of workflows on any cloud, cluster or laptop.
