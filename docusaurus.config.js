@@ -1,14 +1,19 @@
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Nextflow Tower usage docs",
+  tagline: "TODO",
+  url: "https://help.tower.nf",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "SeqeraLabs", // Usually your GitHub org/user name.
+  projectName: "Nextflow Tower", // Usually your repo name.
   themeConfig: {
+     algolia: {
+      apiKey: '23eec3013ea3a6941848e53e7e1c7af8',
+      indexName: 'tower',
+      contextualSearch: true,
+    },
     navbar: {
       title: "My Site",
       logo: {
@@ -38,11 +43,7 @@ module.exports = {
             {
               label: "Style Guide",
               to: "docs/",
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            },
+            }
           ],
         },
         {
