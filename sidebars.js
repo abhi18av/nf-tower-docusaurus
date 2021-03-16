@@ -6,8 +6,8 @@ module.exports = {
     "Compute Environments": [],
     "Launching Pipelines": [],
     "Monitoring Pipelines": [],
-    "Git Integration": [],
+    "Git Integration": [ "git-overview", "git-public", "git-private"],
     "Automation": [],
-    "API": [],
+    "API": ["api_overview", "api_openapi", "api_endpoints"],
   },
 };

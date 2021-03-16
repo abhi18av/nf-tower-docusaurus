@@ -15,9 +15,9 @@ module.exports = {
       contextualSearch: true,
     },
     navbar: {
-      title: "My Site",
+      title: "",
       logo: {
-        alt: "My Site Logo",
+        alt: "Nextflow Tower logo",
         src: "img/logo.svg",
       },
       items: [
