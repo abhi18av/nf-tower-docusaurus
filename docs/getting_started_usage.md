@@ -16,10 +16,6 @@ menu:
     weight: 2
 ---
 
-<br>
-
-# Usage
-
 You can use Tower via either the **online GUI**, using the `-with-tower` option with the **Nextflow run command**, or through the **API**.
 
 
@@ -41,14 +37,12 @@ Create an account and login into Tower.
 
   {{% pretty_screenshot img="/uploads/2021/01/usage_create_token.png" %}}
 
-  <br>
 
 
 **2. Name your token**
 
   {{% pretty_screenshot img="/uploads/2021/01/usage_name_token.png" %}}
 
-  <br>
 
 **3. Save your token safely**
 
@@ -56,7 +50,6 @@ Create an account and login into Tower.
 
   {{% pretty_screenshot img="/uploads/2021/01/usage_token.png" %}}
 
-  <br>
 
 **4. Export your token**
 

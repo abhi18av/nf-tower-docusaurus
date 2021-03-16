@@ -34,7 +34,7 @@ To launch a pipeline:
 
 {{% pretty_screenshot img="/uploads/2020/10/launch_button.png" %}}
 
-<br>
+
 
 The **Launch Pipeline** dialog will appear.
 
@@ -44,7 +44,7 @@ The **Launch Pipeline** dialog will appear.
 
 {{% pretty_screenshot img="/uploads/2020/10/launch_RNASeq.png" %}}
 
-<br>
+
 
 **3.** Enter the repository of the **Pipeline to launch**.  
 *For example https://github.com/nf-core/rnaseq.git*.
@@ -66,7 +66,7 @@ The **Launch Pipeline** dialog will appear.
     paired_end: true
 {{< /highlight >}}
 
-<br>
+
 
 **7.** Select *Launch* to begin the pipeline execution.
 

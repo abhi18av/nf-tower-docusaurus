@@ -24,4 +24,4 @@ Select your profile page on the top right of the window and select the **Send no
 
 {{% pretty_screenshot img="/uploads/2020/10/launch_notifications.png" %}}
 
-<br>
+

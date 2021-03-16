@@ -27,13 +27,13 @@ In the example below, we can modify the **manifest** section to give the pipelin
 
 {{% pretty_screenshot img="/uploads/2020/10/launch_manifest.png" %}}
 
-<br>
+
 
 After changing the name in the manifest, when monitoring the pipeline, the name has been overwritten.
 
 {{% pretty_screenshot img="/uploads/2020/10/launch_pipeline_rename.png" %}}
 
-<br>
+
 
 ## Pre & post-run scripts
 It is possible to run custom code, either before and after the execution of the Nextflow script. These fields allow users to enter shell commands.
@@ -44,7 +44,7 @@ Enabling this option ensures Nextflow pulls the latest version from the Git repo
 
 {{% pretty_screenshot img="/uploads/2020/11/launch_advanced.png" %}}
 
-<br>
+
 
 ## Main script
 Nextflow will attempt to run the script named `main.nf` in project repository by default. This can be changed via either the `manifest.mainScript` option or by providing the script filename to run in this field.

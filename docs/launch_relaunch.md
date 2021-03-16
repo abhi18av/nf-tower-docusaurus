@@ -20,13 +20,13 @@ Re-launching pipelines is a great way to quickly troubleshoot or make use of Nex
 
 {{% pretty_screenshot img="/uploads/2020/10/launch_relaunch.png" %}}
 
-<br>
+
 
 The Resume option is selected by default when re-launching a new pipeline. In short, The `-resume` option allows for the continuation of a workflow execution.
 
 {{% pretty_screenshot img="/uploads/2020/10/launch_resume.png" %}}
 
-<br>
+
 
 {{% note "Nextflow resume" %}}
 

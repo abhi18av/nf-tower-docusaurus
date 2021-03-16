@@ -1,10 +1,10 @@
 module.exports = {
   someSidebar: {
     "Welcome": ["introduction"],
-    "Getting started": ["deployments", "usage"],
+    "Getting started": ["getting_started_usage", "getting_started_deployments"],
     "Installation": [],
     "Compute Environments": [],
-    "Launching Pipelines": [],
+    "Launching Pipelines": ["launch_overview", "launch_notifications", "launch_overview", "launch_relaunch"],
     "Monitoring Pipelines": [],
     "Git Integration": [ "git-overview", "git-public", "git-private"],
     "Automation": [],
