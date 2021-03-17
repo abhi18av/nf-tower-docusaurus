@@ -22,7 +22,7 @@ module.exports = {
       },
       items: [
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/seqeralabs/nf-tower-docs",
           label: "GitHub",
           position: "right",
         },
@@ -31,6 +31,7 @@ module.exports = {
     footer: {
       style: "dark",
       links: [
+      
         {
           title: "Docs",
           items: [
@@ -44,34 +45,26 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/seqeralabs",
             },
+                        {
+              label: "Blog",
+              to: "https://www.seqera.io/blog",
+            }
           ],
         },
         {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "blog",
-            },
-            {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/seqeralabs/nf-tower",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© 2018-${new Date().getFullYear()} Seqera Labs S.L. All rights reserved.`,
     },
   },
   presets: [
@@ -81,10 +74,9 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+            "https://github.com/seqeralabs/nf-tower-docs/tree/master/content/docs",
       
           routeBasePath: '/'
-          // Please change this to your repo.
           },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
