@@ -24,7 +24,7 @@ slug: /
 
 Tower is a full-stack application for [Nextflow](https://www.nextflow.io/) data analysis pipelines. It brings monitoring, logging & observability, to your distributed workflows and simplifies the deployment of workflows on any cloud, cluster or laptop.
 
-{{% pretty_screenshot img="/uploads/2020/11/overview_image.png" %}}
+![](/uploads/2020/11/overview_image.png)
 
 The execution launchpad allows users to run pipelines with ease while the flexible API provides programmatic integration to meet your organization's exacting needs.
 
@@ -43,8 +43,7 @@ Tower has been designed from day one to be installed easily in any environment -
 
 As mandated by healthcare industries to ensure compliance, the Tower platform is regularly submitted to penetration tests and security scanning. These tests meet compliance standards set by ISO-27001, HIPAA, and HITRUST.
 
-{{% tip %}}
+:::tip
 
 [**Sign up**](https://tower.nf "Nextflow Tower") to try Tower for free or request a [**demo**](https://meetings.hubspot.com/evan141 "Nextflow Tower Demo") for deployments in your own on-premise or cloud environment.
-
-{{% /tip %}}
+:::

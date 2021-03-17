@@ -16,11 +16,9 @@ menu:
     weight: 1
 ---
 
-{{% tip %}}
-
+:::tip
 It is highly recommended to first [**Sign up**](https://tower.nf "Nextflow Tower") and try the hosted version of Tower for free or request a [**demo**](https://meetings.hubspot.com/evan141 "Nextflow Tower Demo") for a deployment in your own on-premise or cloud environment.
-
-{{% /tip %}}
+:::
 
 Nextflow Tower is a web application server based on a microservice oriented architecture and designed to maximize the portability, scalability and security of the application.
 
@@ -44,7 +42,7 @@ Nextflow Tower Enterprise includes configuration manifests for the deployment in
 
 This diagram shows the system architecture for the reference deployment on AWS.
 
-{{% pretty_screenshot img="/uploads/2020/10/installation_reference_architecture.png" %}}
+![](/uploads/2020/10/installation_reference_architecture.png)
 
 ## Tower Modules
 

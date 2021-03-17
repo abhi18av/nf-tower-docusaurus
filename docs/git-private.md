@@ -21,11 +21,13 @@ menu:
 
 Access to private Git repositories can be managed from the Credentials section, accessible on the right top menu, under **Manage credentials**.
 
-{{% pretty_screenshot img="/uploads/2020/10/git_manage_credentials.png" %}}
+![](/uploads/2020/10/git_manage_credentials.png)
 
 Tower provides support to connect to private repositories from the popular Git hosting platforms GitHub, GitLab, and BitBucket.
 
+:::note
 All credentials are securely stored using advanced encryption (AES-256) and never exposed by any Tower API.
+:::
 
 ## GitHub
 
@@ -53,8 +55,19 @@ It is also possible to specify Git server endpoints for private hosting.
 
 These can be specified in a file `tower.yaml` and must be accessible from the backend and cron container instances.
 
+```yaml
+tower:
+  scm:
+    providers:
+      my_org_bitbucket:
+        server: "https://bitbucket.my-org.com"
+        endpoint: "<API endpoint if different from the above>"
+        platform: bitbucketserver
+        user: some_user_name
+        password: password_or_access_token
+```
 
-:::note
+:::info
 
 For more details on this configuration, see the [Nextflow SCM configuration file](https://www.nextflow.io/docs/latest/sharing.html#scm-configuration-file) for examples. You can first test your connection with a Nextflow execution using the standard SCM file and then convert it to the YAML structure, as shown above, for Tower.
 

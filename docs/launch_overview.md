@@ -18,11 +18,10 @@ menu:
     weight: 1
 ---
 
-{{% warning %}}
+:::caution
 
 See the [**Compute Environment**](/docs/compute-envs) documentation to learn how to create an environment.
-
-{{% /warning %}}
+:::
 
 Tower currently supports launching into **AWS**, **Google**, **Slurm** and **LSF** compute environments.
 
@@ -32,7 +31,7 @@ To launch a pipeline:
 
 **1.** Select the **Launch** button in the navigation bar.
 
-{{% pretty_screenshot img="/uploads/2020/10/launch_button.png" %}}
+![](/uploads/2020/10/launch_button.png)
 
 
 
@@ -42,7 +41,7 @@ The **Launch Pipeline** dialog will appear.
 
 *The users primary compute environment is selected by default.*
 
-{{% pretty_screenshot img="/uploads/2020/10/launch_RNASeq.png" %}}
+![](/uploads/2020/10/launch_RNASeq.png)
 
 
 
@@ -61,23 +60,23 @@ The **Launch Pipeline** dialog will appear.
 **6.** Enter any **Pipeline parameters** in YAML or JSON format.
 *YAML example:*
 
-{{< highlight yaml >}}
-    reads: 's3://nf-bucket/exome-data/ERR013140_{1,2}.fastq.bz2'  
-    paired_end: true
-{{< /highlight >}}
+```yaml
+reads: 's3://nf-bucket/exome-data/ERR013140_{1,2}.fastq.bz2'  
+paired_end: true
+```
 
 
 
 **7.** Select *Launch* to begin the pipeline execution.
 
-{{% tip %}}
+:::tip
 Nextflow pipelines are simply Git repositories and the location can be any public or private Git-hosting platform. See [**Git Integration**](/docs/git/git-overview) in the Tower docs and [**Pipeline Sharing**](https://www.nextflow.io/docs/latest/sharing.html) in the Nextflow docs for more details.
-{{% /tip %}}
+:::
 
-{{% warning %}}
+:::caution
 The credentials associated with the compute environment must be able to access the work directory.
-{{% /warning %}}
+:::
 
-{{% tip %}}
+:::tip
 In the configuration, the full path to a bucket must be specified with single-quotes around strings no quotes around booleans or numbers.
-{{% /tip %}}
+:::

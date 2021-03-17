@@ -5,8 +5,8 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "SeqeraLabs", // Usually your GitHub org/user name.
+  favicon: "img/favicon.white.png",
+  organizationName: "seqeralabs", // Usually your GitHub org/user name.
   projectName: "Nextflow Tower", // Usually your repo name.
   themeConfig: {
      algolia: {
@@ -89,12 +89,6 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

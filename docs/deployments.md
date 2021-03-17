@@ -30,13 +30,13 @@ Tower can be accessed and/or deployed in three ways:
 
 To try Tower, visit [tower.nf](https://tower.nf/login) and login with GitHub or Google credentials. The [Launching Pipelines](/docs/launch/) documentation section provides step-by-step instructions to start your first pipeline. The Hosted version of Tower has a limit of five concurrent workflow executions per user.
 
-{{% pretty_screenshot img="/uploads/2020/10/starting_tower_nf.png" %}}
+![](/uploads/2020/10/starting_tower_nf.png)
 
 ## Community
 
 For more information on installing the Community version of Tower visit [our GitHub repository](https://github.com/seqeralabs/nf-tower) and follow our [deployment guide](/docs/installation/system-deployment/).
 
-{{% pretty_screenshot img="/uploads/2020/10/starting_tower_opensource.png" %}}
+![](/uploads/2020/10/starting_tower_opensource.png)
 
 ## Enterprise
 
@@ -53,4 +53,4 @@ Tower Enterprise is installed within an organization's own cloud or on-premise e
 
 To install the Tower in your organization, contact [Seqera Labs](https://seqera.io) for a demo and to discuss your requirements.
 
-{{% pretty_screenshot img="/uploads/2020/10/starting_tower_enterprise.png" %}}
+![](/uploads/2020/10/starting_tower_enterprise.png)
