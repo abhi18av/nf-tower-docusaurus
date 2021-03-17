@@ -1,13 +1,13 @@
 module.exports = {
-  title: "Nextflow Tower usage docs",
-  tagline: "TODO",
+  title: "Nextflow Tower docs",
+  tagline: "Deploy and manage complex pipelines on any infrastructure. Build better pipelines, reduce costs and improve time to results.",
   url: "https://help.tower.nf",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.white.png",
-  organizationName: "seqeralabs", // Usually your GitHub org/user name.
-  projectName: "Nextflow Tower", // Usually your repo name.
+  organizationName: "seqeralabs",
+  projectName: "nf-tower",
   themeConfig: {
      algolia: {
       apiKey: '23eec3013ea3a6941848e53e7e1c7af8',
