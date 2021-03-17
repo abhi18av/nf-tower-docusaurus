@@ -16,7 +16,7 @@ menu:
     weight: 3
 
 ---
-:::caution Requirements
+:::info Requirements
 This guide assumes you have an existing [Google Cloud Account](https://console.cloud.google.com). Sign-up for a free account [here](https://cloud.google.com/).
 :::
 
@@ -222,4 +222,4 @@ This is the name of your **Google Storage bucket** with the `gs://` prefix.
 Time to start launching pipelines in your cloud.
 :::
 
-Jump to the documentation section for [Launching Pipelines](/docs/launch/overview/).
+Jump to the documentation section for [Launching Pipelines](/launch_overview/).

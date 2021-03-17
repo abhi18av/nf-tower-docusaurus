@@ -21,10 +21,10 @@ menu:
 Selecting a pipeline on the navigation bar will display the workflow details in the main monitoring panel. The main window contains:
 
 * [Execution section](#run-information) with command-line, parameters, configuration, and execution logs in real-time.
-* [Summary](/docs/monitoring/summary/) and [status section](/docs/monitoring/summary/).
-* List of pipeline [processes](/docs/monitoring/processes/).
-* Aggregated [stats](/docs/monitoring/aggregate_stats/) and [load](/docs/monitoring/aggregate_stats/#load-and-utilization).
-* Detailed list of [individual tasks](/docs/monitoring/tasks/#task-table) and [metrics](/docs/monitoring/tasks/#resource-metrics).
+* [Summary](/monitoring_summary/) and [status section](/monitoring_summary#task-status).
+* List of pipeline [processes](/monitoring_processes/).
+* Aggregated [stats](/monitoring_aggregate_stats/) and [load](/monitoring_aggregate_stats#load-and-utilization).
+* Detailed list of [individual tasks](/monitoring_tasks/#task-table) and [metrics](/monitoring_tasks/#resource-metrics).
 
 ## Run information
 

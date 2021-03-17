@@ -18,9 +18,9 @@ menu:
     weight: 1
 ---
 
-:::caution
+:::info
 
-See the [**Compute Environment**](/docs/compute-envs) documentation to learn how to create an environment.
+See the [**Compute Environment**](/compute_overview/) documentation to learn how to create an environment.
 :::
 
 Tower currently supports launching into **AWS**, **Google**, **Slurm** and **LSF** compute environments.
@@ -37,7 +37,7 @@ To launch a pipeline:
 
 The **Launch Pipeline** dialog will appear.
 
-**2.** Select the drop down menu to choose a [**Compute Environment**](/docs/compute-envs/overview).  
+**2.** Select the drop down menu to choose a [**Compute Environment**](/compute_overview/).  
 
 *The users primary compute environment is selected by default.*
 
@@ -70,13 +70,13 @@ paired_end: true
 **7.** Select *Launch* to begin the pipeline execution.
 
 :::tip
-Nextflow pipelines are simply Git repositories and the location can be any public or private Git-hosting platform. See [**Git Integration**](/docs/git/git-overview) in the Tower docs and [**Pipeline Sharing**](https://www.nextflow.io/docs/latest/sharing.html) in the Nextflow docs for more details.
+Nextflow pipelines are simply Git repositories and the location can be any public or private Git-hosting platform. See [**Git Integration**](/git-overview/) in the Tower docs and [**Pipeline Sharing**](https://www.nextflow.io/docs/latest/sharing.html) in the Nextflow docs for more details.
 :::
 
 :::caution
 The credentials associated with the compute environment must be able to access the work directory.
 :::
 
-:::tip
+:::info
 In the configuration, the full path to a bucket must be specified with single-quotes around strings no quotes around booleans or numbers.
 :::

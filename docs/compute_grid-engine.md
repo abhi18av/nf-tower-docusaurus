@@ -96,4 +96,4 @@ The Compute queue can be overridden as a configuration option in the Nextflow pi
 You are now ready to launch pipelines.
 :::
 
-Jump to the documentation section for [Launching Pipelines](/docs/launch/overview/).
+Jump to the documentation section for [Launching Pipelines](/launch_overview/).

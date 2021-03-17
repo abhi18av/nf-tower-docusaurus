@@ -18,7 +18,7 @@ menu:
 
 ---
 ## Overview
-:::caution Disclaimer
+:::info Requirementes
 <!-- If you already have Batch environment pre-configured, skip Forge and go to Launch -->
 This guide assumes you have an existing [AWS Account](https://aws.amazon.com/). Sign up for a free AWS account [here](https://portal.aws.amazon.com/billing/signup).
 :::
@@ -105,7 +105,7 @@ We must grant our new Tower IAM user access to this bucket.
 
 ![](/uploads/2020/09/aws_create_bucket.png)
 
-:::caution Which AWS region should I use?
+:::info Which AWS region should I use?
 The region of the bucket should be in the same region as the compute environment which we will set in the next section. Typically users select a region closest to their physical location but Tower Forge supports creating resources in any of the available AWS regions.
 :::
 
@@ -139,7 +139,7 @@ pipelines, this can amount to a large quantity of data. To reduce costs, when co
 
 ## Forge compute environment
 
-:::note Congratulations!
+:::tip Congratulations!
 You have completed the AWS environment setup for Tower.
 :::
 
@@ -212,10 +212,11 @@ with the corresponding Fusion mount paths.
 
 **Advanced options**
 
-:::caution AMI ID - AMI requirements for AWS Batch use
+:::tip AMI ID - AMI requirements for AWS Batch use
 
 
 To use an existing AMI, make sure the AMI is based on an Amazon Linux-2 ECS optimized image that meets the Batch requirements. To learn more about approved versions of the Amazon ECS optimized AMI, visit this [link](https://docs.aws.amazon.com/batch/latest/userguide/compute_resource_AMIs.html#batch-ami-spec)
+:::
 
 :::caution Min CPUs - Editing this will result in additional AWS costs
 
@@ -332,4 +333,4 @@ Tower can use S3 to access data, create work directories and write outputs. The 
 You now have everything to begin deploying massively scalable pipelines.
 :::
 
-Jump to the documentation section for [Launching Pipelines](/docs/launch/overview/).
+Jump to the documentation section for [Launching Pipelines](/launch_overview/).

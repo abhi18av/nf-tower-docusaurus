@@ -47,7 +47,7 @@ the steps in the [Cluster preparation](https://github.com/seqeralabs/nf-tower-k8
 
 **4.** Select the **Location** where the GKE cluster is located.
 
-:::caution Regional and zonal clusters
+:::info Regional and zonal clusters
 GKE clusters can be either *regional* or *zonal*. For example, `us-west1` identifies the United States West-Coast region which has three zones: `us-west1-a`, `us-west1-b`, and `us-west1-c`.
 
 Tower self-completion only shows regions. You should manually edit this field if your GKE cluster was created zonally rather than regionally.

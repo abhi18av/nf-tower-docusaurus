@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: API Overview
 aliases:
 - "/docs/api"
 weight: 1
@@ -27,11 +27,7 @@ This allows organizations to extend their existing solutions by leveraging the T
 
 All API access is over HTTPS, and accessed from `https://api.tower.nf`. All data is sent and received as [JSON](https://www.json.org/) encoded objects.
 
-All timestamps use the [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) date-time standard format:
-
-:::tip
-YYYY-MM-DDTHH:MM:SSZ
-:::
+All timestamps use the [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) date-time standard format: `YYYY-MM-DDTHH:MM:SSZ`
 
 
 ## Authentication

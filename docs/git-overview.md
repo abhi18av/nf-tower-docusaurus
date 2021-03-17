@@ -25,5 +25,5 @@ By managing complex data pipelines as Git projects, all assets can be precisely 
 
 The following sections detail how to connect to public and private Git-hosting platforms to Tower:
 
-  * [Public Git repositories](/docs/git/git-public/)
-  * [Private Git repositories](/docs/git/git-private/)
+  * [Public Git repositories](/git-public/)
+  * [Private Git repositories](/git-private/)

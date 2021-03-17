@@ -17,11 +17,11 @@ menu:
 ---
 ## Overview
 
-:::caution
+:::info
 The Tower support for Azure Batch is currently in beta. Any feedback and suggestions are welcome.    
 :::
 
-:::tip Disclaimer
+:::note Disclaimer
 <!-- If you already have Batch environment pre-configured, skip Forge and go to Launch -->
 This guide assumes you have an existing [Azure Account](https://azure.microsoft.com/en-us). Sign up for a free Azure account [here](https://azure.microsoft.com/en-us/free/).
 :::
@@ -50,8 +50,11 @@ When you open [this link](https://portal.azure.com/#create/Microsoft.ResourceGro
 ![](/uploads/2021/02/azure_new_resource_group.png)
 
 **1.** Add the name for the resource group (for e.g. `towerrg`). 
+
 **2.** Select the preferred region for this resource group. 
+
 **3.** Click **Review and Create** to proceed to the review screen.
+
 **4.** Click **Create** to create the resources.
 
 
@@ -63,9 +66,13 @@ The next step is to create the necessary Azure Storage account. When you open [t
 
 
 **1.** Add the name for the storage account (for e.g. `towerrgstorage`).
+
 **2.** Select the preferred region for this resource group.
+
 **3.** Click **Review and Create** to proceed to the review screen.
+
 **4.** Click **Create** to create the Azure Storage account.
+
 **5.** Next, create a Blob container within this storage account by navigating to your new storage account and clicking on **Container** as shown below.
 
 ![](/uploads/2021/02/azure_new_container.png)
@@ -90,8 +97,11 @@ The next step is to create the necessary Azure Batch account. When you open [thi
 ![](/uploads/2021/02/azure_new_batch_account.png)
 
 **1.** Add the name for the storage account (for e.g. `towerrgbatch`).
+
 **2.** Select the preferred region for this resource group.
+
 **3.** Click **Review and Create** to proceed to the review screen.
+
 **4.** Click **Create** to create the Azure Batch account.
 
 
@@ -223,5 +233,5 @@ The blob container should be in the same **Region** as selected above.
 You now have everything you need to begin deploying massively scalable pipelines.
 :::
 
-Jump to the documentation section for [Launching Pipelines](/docs/launch/overview/).
+Jump to the documentation section for [Launching Pipelines](/launch_overview/).
 
