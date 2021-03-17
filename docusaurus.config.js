@@ -31,16 +31,6 @@ module.exports = {
     footer: {
       style: "dark",
       links: [
-      
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Style Guide",
-              to: "docs/",
-            }
-          ],
-        },
         {
           title: "Community",
           items: [

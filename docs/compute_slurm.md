@@ -21,7 +21,7 @@ menu:
 
 [Slurm Workload Manager](https://slurm.schedmd.com/overview.html) is an open source, fault-tolerant, and highly scalable cluster management and job scheduling system for large and small Linux clusters.
 
-:::caution "Support for remote batch schedulers is an incubating feature" 
+:::caution Support for remote batch schedulers is an incubating feature
 This feature enables Tower to connect to remote cloud or on-premise clusters and launch pipelines.
 :::
 
